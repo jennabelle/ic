@@ -27,7 +27,7 @@ var graph1 = [ ['Item1', 'Item2'], ['Item4', 'Item5'], ['Item5', 'Item6'] ];
 
 function findLargestCluster(graph) {
 
-	var hash = {};
+	var hash = {}; // strategy: turn edge list into adjacency list! An adjacency list is basically a hash.
 
 	for (var i = 0; i < graph.length; i++) {
 
